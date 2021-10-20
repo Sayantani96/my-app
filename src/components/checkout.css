@@ -1,0 +1,23 @@
+.checkout{
+    height:100vh;
+    background: #FC354C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.card{
+    background-color: indianred;
+    width:45%;
+    height:55%;
+    box-shadow: 0px 25px 40px rgb(125, 190, 27);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.congrats{
+    color:white;
+    font-weight: bold;
+    font-size:large
+}

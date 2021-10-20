@@ -1,0 +1,21 @@
+.container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.reg{
+    width:45%;
+    height:55%;
+    border-radius: 45px;
+    box-shadow: 0px 25px 40px rgb(196, 110, 127);
+    display:flex;
+}
+.colored{
+    background-image:linear-gradient(to right, #d878b7, #e164a4, #e84e8d, #ec3572, #eb1254);
+    width:40%;
+    border-radius: 45px;
+}
+.written{
+    width:60%;
+}

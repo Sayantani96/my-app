@@ -1,0 +1,10 @@
+.item{
+    padding:4px;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:9px;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
