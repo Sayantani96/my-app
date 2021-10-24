@@ -6,7 +6,7 @@ import Collection from './components/collections';
 import ProductContext from './components/ProductContext';
 import Store from "./components/Cart";
 import Checkout from "./components/checkout";
-
+import Login from "./components/Login";
 function App() {
   return (
     <div className="App">
@@ -21,6 +21,9 @@ function App() {
       </Route>
       <Route path="/collection">
       <Collection/> 
+        </Route>
+        <Route path="/login">
+          <Login/>
         </Route>
         <Route path="/Register">
           <Register/>

@@ -18,4 +18,22 @@
 }
 .written{
     width:60%;
+    text-align: center;
+}
+.signup{
+    text-align: center;
+}
+.form-field{
+border-radius:50px ;
+margin-bottom:20px;
+padding:5px;
+box-shadow: 0px 10px 20px rosybrown;
+}
+.submit{
+    background-image: linear-gradient(to right, #d878b7, #e164a4, #e84e8d, #ec3572, #eb1254);
+    border:0;
+    border-radius:50px;
+    margin-top:20px;
+    height:30px;
+    width:90px;
 }
