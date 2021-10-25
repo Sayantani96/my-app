@@ -65,7 +65,7 @@ const Collection=()=>{
                                         <img src={key.image} alt="" className="card-img" key={key}/>
                                         <div key={key+5}>{key.name}</div>
                                         <div key={key+8}>{key.price}</div>
-                                        <button className="cart-btn">Add to cart</button>
+                                        <button className="cart-btn" onClick={()=>{addToCart(key)}}>Add to cart</button>
                                    </div>
                                         )
                           }
